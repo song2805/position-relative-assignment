@@ -1,0 +1,265 @@
+.picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav {  
+    background-color:antiquewhite;
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.mac-screen {
+    display: flex;
+    background-color: #686D76;
+    border: 5px solid #686D76; 
+    border-radius: 20px 20px 0 0;
+    width: 720px;
+    height: 30px;    
+}
+
+.mac-button {
+    text-decoration: none;
+  
+    border: 1px solid #000000;
+    border-radius: 100px;
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.btn_color-1 {
+    background-color: red;    
+}
+
+.btn_color-2 {
+    background-color: yellow;
+}
+
+.btn_color-3 {
+    background-color: green;
+}
+
+.question {
+    width: 720px;
+    height: 480px;
+    border: 5px solid #686D76;
+    background-color: white;
+}
+
+
+
+#mark-1 {
+    background-color:#80BCBD;
+    padding-top: 81px;
+    padding-bottom: 80px;
+}
+
+        .box {
+            background-color: black;
+            width: 100px;
+            height: 100px;
+            color: white;
+        }
+
+        .question_1 {
+            display: flex;
+            justify-content:space-between;
+        }
+
+        .box-position {
+            display: flex;
+        }
+
+        .box-fix {
+            margin-right: 5px;
+        }   
+
+
+#mark-2 {
+    padding-top: 81px;
+    background-color: #AAD9BB;
+    padding-bottom: 80px;
+}
+
+
+        .question_2 {
+            display: flex;
+            flex-direction: column;    
+        }
+
+        .q2-b {
+            align-self: center;
+        }
+
+        .q2-c {
+            align-self: flex-end;
+        }
+
+
+
+#mark-3 {
+    padding-top: 81px;
+    background-color: #EAECCC;
+    padding-bottom: 80px;
+}
+
+        .question_3 {
+            
+            display: flex;
+            justify-content: center;
+
+        }
+        .q3-a {
+            position:relative;
+            top: 30px;
+            color: white;
+            background-color: #403e3e;
+            width: 200px;
+            height: 200px;
+            display: flex;    
+        }
+
+        .q3-b {    
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background-color: black;
+            width: 100px;
+            height: 100px;    
+        }
+
+
+#mark-4 {
+    padding-top: 81px;
+    background-color: #DBCC95;
+    padding-bottom: 80px;
+}
+
+        .q4-a {
+            background-color:black;
+            width: 100px;
+            height: 100px;
+            color: white;
+        }
+        .q4-b {
+            background-color:#39393b;
+            width: 100px;
+            height: 100px;
+            color: white;
+            position: relative;
+            top: -50px;
+            left: 50px;
+        }
+
+#mark-5 {
+    padding-top: 81px;
+    background-color: #CD8D7A;
+  
+}
+
+
+
+.mac-screen-q5 {
+    display: flex;
+    background-color: #686D76;
+    border: 5px solid #686D76; 
+    border-radius: 20px 20px 0 0;
+    width: 99%;
+    height: 40px;    
+}
+
+.mac-button-q5 {
+    text-decoration: none;
+    border: 1px solid #fafaf8d4;
+    border-radius: 100px;
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.btn_color-1-q5 {
+    background-color: red;    
+}
+
+.btn_color-2-q5 {
+    background-color: yellow;
+}
+
+.btn_color-3-q5 {
+    background-color: green;
+}
+
+.question-q5 {
+    display: flex;
+     
+}
+
+
+.big-box {
+  
+    margin-right: 10px;
+    background-color: #39393b;
+    color: white;
+    width: 400px;
+    height: 170px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.small-box {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.q5-a {  
+    padding-right: 30px; 
+    position: absolute;
+   
+    bottom: 0px;
+    left: 0px; 
+}
+
+.q5-b {
+    padding-right: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
