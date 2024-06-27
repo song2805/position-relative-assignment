@@ -185,7 +185,7 @@ a:hover {
 #mark-5 {
     padding-top: 81px;
     background-color: #CD8D7A;
-  
+    padding-bottom: 80px;
 }
 
 
@@ -222,15 +222,10 @@ a:hover {
     background-color: green;
 }
 
-.question-q5 {
-    display: flex;
-     
-}
-
 
 .big-box {
   
-    margin-right: 10px;
+    margin-right: 0px;
     background-color: #39393b;
     color: white;
     width: 400px;
@@ -262,4 +257,10 @@ a:hover {
     right: 0px;
 }
 
+
+
+.bg-5 {
+    position: relative;
+
+}
 
